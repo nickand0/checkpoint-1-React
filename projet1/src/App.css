@@ -1,0 +1,21 @@
+
+.container{
+  margin-top: 40px;
+}
+.card{
+  margin-bottom: 20px;
+  border-radius: 7px;
+  background: linear-gradient(145deg, #e6e6e6, #ffffff);
+  box-shadow:  7px 7px 14px #cfcfcf,
+              -7px -7px 14px #ffffff;
+}
+.message{
+  color: aliceblue;
+  text-align: center;
+  border-radius: 8px;
+  background-color: rgb(46, 67, 67);
+  
+}
+h2{
+  font-weight: 900;
+}
