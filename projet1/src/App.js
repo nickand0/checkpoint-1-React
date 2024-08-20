@@ -1,13 +1,26 @@
+//importation bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css'
 import {Card,Container} from 'react-bootstrap'
+
+//importation css
 import './App.css';
+
+//importation name
 import Name from './name';
+
+//importation prix
 import Price from './Price';
+//importation description
+
 import Description from './Description';
+
+//importation image
 import Image from './Image';
 
-const firstName = "";
+//mon nom
+const firstName = "Nikki";
 
+//fonction app
 function App() {
   return (
     <Container className='container'>
