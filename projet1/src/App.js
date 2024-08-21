@@ -25,11 +25,12 @@ function App() {
   return (
     <Container className='container'>
       <Card className="card">
-        <Image className='img'/>
-        <Card.Body>
-          <Card.Title><Name/></Card.Title>
+        <Image/>
+        <Card.Body style={{color:'white'}}>
+          <Card.Title style={{textAlign:'center'}}><Name/></Card.Title>
+          <div style={{borderBottom:'solid',borderColor:'gray',marginBottom:'20px',marginTop:'20px'}}></div>
           <Card.Text className='cardText'>
-            <Price />
+          <strong ><Price/></strong>
             <Description/>
           </Card.Text>
         </Card.Body>
@@ -38,10 +39,10 @@ function App() {
       <div className='message'>
         {firstName?(
           <>
-            <h2>Hello,{firstName}!</h2>
+            <h1>Hello,{firstName}!</h1>
           </>
         ):(
-        <h2>Hello, there!</h2>
+        <h1>Hello, there!</h1>
         )}
       </div>
     </Container>

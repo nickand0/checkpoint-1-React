@@ -1,0 +1,7 @@
+.img{
+    width:'300px';
+    margin-left:'50px';
+    margin-top:'50px';
+    mix-blend-mode:'multiply';
+    z-index:'100'
+}

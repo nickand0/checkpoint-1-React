@@ -1,9 +1,9 @@
 //création des contenues de product
 const product ={
-    name:"JBL Charge 5",
-    price:"200 000 F",
-    description:"Un puissant speaker portable ",
-    imageUrl:"https://ch.jbl.com/dw/image/v2/BFND_PRD/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw899ba7b6/pdp/JBL_Charge_5_Lifestyle1_904x560px.png?sw=904&sh=560"
+    name:"Harman Kardon Aura Studio 2",
+    price:"150 000 F",
+    description:"un éclairage ambiant et des performances audio de haute qualité dans une enceinte Bluetooth ",
+    imageUrl:"https://5.imimg.com/data5/SELLER/Default/2022/5/FW/OX/NZ/143937485/harman-kardon-aura-studio-3-wireless-bluetooth-outdoor-speaker-black--500x500.jpg"
 }
 
 //exportation product

@@ -5,6 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
+  background-image:url('https://media.istockphoto.com/id/1390835938/fr/vectoriel/int%C3%A9rieur-studio-avec-texture-en-fibre-de-carbone-int%C3%A9rieur-noir-textur%C3%A9-moderne-en-fibre.jpg?s=612x612&w=0&k=20&c=Oi5wekl-EWtmjPG-g7jbsd3yjdI7YG9jisRgmsG--x8=')
 }
 
 code {
